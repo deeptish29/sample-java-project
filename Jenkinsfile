@@ -9,7 +9,7 @@ pipeline {
                 }
             }
         }
-}
+
         stage('Build Customer app code') {
             steps {
                 script {
